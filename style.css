@@ -1,0 +1,125 @@
+h1, h2 {
+  font-family: Lato;
+}
+body{
+  margin : 0 ;
+  padding : 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 7px solid #128cc4;
+  margin: 5% 5% 5% 5%;
+}
+
+.tab{
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+.tab__account{
+  background-color: #f7f7f7;
+  flex-grow: 1;
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #cecece;
+  min-height: 46px;
+  color:  #636363;
+  padding: 10px;
+}
+.tab li {
+  list-style: none;
+  display: inline
+}
+
+.tab__cash{
+  background-color:  #efefef;
+  flex-grow: 1;
+  max-width: 50%;
+  height: 100%;
+  text-align: right;
+  border-bottom: 1px solid #cecece;
+  min-height: 46px;
+  padding: 10px;
+}
+
+.blue{
+   color : #128cc4;
+   padding-right: 5px;
+}
+
+.available_cash{
+  display: block;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 3px;
+}
+
+.today{
+ color : #8c8c8c;
+ font-size: 1.25rem;
+}
+.changes{
+  font-size: 1.2rem;
+}
+
+.tab_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cecece;
+  min-height: 47px;
+  padding: 10px 10px 10px 0;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.amount_blue{
+   color : #128cc4;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+
+.amounts_container {
+  display: block;
+  text-align: end;
+}
+
+.amount-black{
+  color : black;
+  display: block;
+  font-size: 1.3rem;
+}
+
+.amount-red{
+  display: block;
+  color : #c15557;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.amount-green{
+  display: block;
+  color :  #53a76e;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.load-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+}
