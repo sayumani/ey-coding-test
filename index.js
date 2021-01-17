@@ -42,7 +42,7 @@ const getAccounts = (user, sortBy, sortDirection = "asc") => {
     sortBy = user;
     user = "";
   }
-  const accounts = acctData;
+  let accounts = acctData;
   let result = [];
   if (user) {
     accounts = accounts.filter(account => account.user === user);
